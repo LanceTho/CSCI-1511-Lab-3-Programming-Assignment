@@ -12,4 +12,6 @@ Replace one of the string items from the list with "binoculars", but don't repla
 
 import Lab3_LanceTho_add
 
-print(f"{Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
+Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.insert(4, "binoculars")
+Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.pop(5)
+print(f"Replaced Pillow with binoculars: {Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
