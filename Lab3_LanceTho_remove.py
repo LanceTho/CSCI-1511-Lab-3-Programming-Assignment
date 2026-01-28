@@ -10,4 +10,5 @@ Print an f-string stating how many total items will be brought to the camping tr
 
 import Lab3_LanceTho_replace
 
-print(f"{Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
+Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.remove("binoculars")
+print(f"List with 'binoculars' removed: {Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
