@@ -7,9 +7,14 @@ Print the resulting list.
 Print an f-string stating how many total items will be brought to the camping trip using the len() function
 1/28/2026
 """
-
+#import list from Lab3_LanceTho_replace.py
 import Lab3_LanceTho_replace
 
+#remove 'binoculars' from the list
 Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.remove("binoculars")
+
+#print list with 'binoculars' removed
 print(f"List with 'binoculars' removed: {Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
+
+#print total amount of items in the list
 print(f"Total amount of items that will be brought to the camping trip: {len(Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies)}")
