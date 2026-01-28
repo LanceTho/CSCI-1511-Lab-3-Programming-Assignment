@@ -10,3 +10,5 @@ Print the list sorted alphabetically.
 supplies: list = ["Firestarter", "Backpack", "Tent", "First Aid Kit", "Sleeping Bag", "Water Bottle", "Folding Chair", "Flashlight", "Pillow", "Pocket Knife"]
 
 print(f"Unsorted list: {supplies}")
+supplies.sort()
+print(f"Sorted list: {supplies}")
