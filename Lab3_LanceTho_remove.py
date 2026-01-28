@@ -12,3 +12,4 @@ import Lab3_LanceTho_replace
 
 Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.remove("binoculars")
 print(f"List with 'binoculars' removed: {Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
+print(f"Total amount of items that will be brought to the camping trip: {len(Lab3_LanceTho_replace.Lab3_LanceTho_add.Lab3_LanceTho_list.supplies)}")
