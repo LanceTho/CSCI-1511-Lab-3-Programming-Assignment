@@ -9,4 +9,9 @@ Print the resulting list reversed alphabetically.
 import Lab3_LanceTho_list
 
 Lab3_LanceTho_list.supplies.append("Lantern")
-print(f"{Lab3_LanceTho_list.supplies}")
+Lab3_LanceTho_list.supplies.append("Coat")
+Lab3_LanceTho_list.supplies.append("Cooking Set")
+Lab3_LanceTho_list.supplies.append("Clothes")
+Lab3_LanceTho_list.supplies.append("Boots")
+
+print(f"List with added stuff: {Lab3_LanceTho_list.supplies}")
