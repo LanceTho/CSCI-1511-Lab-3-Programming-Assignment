@@ -14,4 +14,6 @@ import Lab3_LanceTho_add
 
 Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.insert(4, "binoculars")
 Lab3_LanceTho_add.Lab3_LanceTho_list.supplies.pop(5)
-print(f"Replaced Pillow with binoculars: {Lab3_LanceTho_add.Lab3_LanceTho_list.supplies}")
+print(f"Start of the list before 'binoculars': {Lab3_LanceTho_add.Lab3_LanceTho_list.supplies[0:4]}")
+print(f"{Lab3_LanceTho_add.Lab3_LanceTho_list.supplies[4:5]}")
+print(f"Rest of the list: {Lab3_LanceTho_add.Lab3_LanceTho_list.supplies[5:]}")
