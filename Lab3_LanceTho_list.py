@@ -1,7 +1,12 @@
 """
-The program's name,
-Your name (the author),
-The purpose of the program,
-Any info about starter code (If used, where it came from, link, etc.), and the
-Date.
+Lab3_LanceTho_list.py
+Lance Thongsavanh
+Create a list of strings containing exactly 10 items you are taking with you (e.g., "tent poles").
+Print the total number of items in your list.
+Print the list sorted alphabetically.
+1/28/2026
 """
+
+supplies: list = ["Firestarter", "Backpack", "Tent", "First Aid Kit", "Sleeping Bag", "Water Bottle", "Folding Chair", "Flashlight", "Pillow", "Pocket Knife"]
+
+print(f"Unsorted list: {supplies}")
