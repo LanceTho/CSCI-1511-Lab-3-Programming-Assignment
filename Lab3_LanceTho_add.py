@@ -14,4 +14,6 @@ Lab3_LanceTho_list.supplies.append("Cooking Set")
 Lab3_LanceTho_list.supplies.append("Clothes")
 Lab3_LanceTho_list.supplies.append("Boots")
 
-print(f"List with added stuff: {Lab3_LanceTho_list.supplies}")
+Lab3_LanceTho_list.supplies.sort()
+Lab3_LanceTho_list.supplies.reverse()
+print(f"List with 5 new items in reversed alphabetical order: {Lab3_LanceTho_list.supplies}")
